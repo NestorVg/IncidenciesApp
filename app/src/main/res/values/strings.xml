@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Incide</string>
+    <string name="hint_usuari">Usuari</string>
+    <string name="hint_nom_usuari">Nom usuari</string>
+    <string name="etEmail">email</string>
+    <string name="etContrasenya">Contrasenya</string>
+    <string name="tv_no_tens_compte">Encara no tens compte?</string>
+    <string name="tv_recordaContrasenya">Recorda contrasenya</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="btn_login">Iniciar sessió</string>
+    <string name="btn_crearCompte">Crear compte</string>
+    <string name="politica">Registrant-te estàs acceptant els nostres <a href="http://www.google.com">termes d ús</a> i <a href="http://google.com">política de privacitat</a></string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>
