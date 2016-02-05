@@ -17,11 +17,7 @@ public class Encriptacio {
     public static String SHA384 = "SHA-384";
     public static String SHA512 = "SHA-512";
 
-    /***
-     * Converteix un array de bytes a String usant valors hexadecimals
-     * @param digest arrays de bytes a convertir
-     * @return String creat a partir de <code>digest</code>
-     */
+
     private static String toHexadecimal(byte[] digest){
         String hash = "";
         for(byte aux : digest) {
@@ -32,12 +28,6 @@ public class Encriptacio {
         return hash;
     }
 
-    /***
-     * Encripta un missatge de text mitjançant algorisme de resum de missatge.
-     * @param message text a encriptar
-     * @param algorithm algorisme d'encriptació, pot ser: MD2, MD5, SHA-1, SHA-256, SHA-384, SHA-512
-     * @return missatge encriptat
-     */
     public static String getStringMessageDigest(String message, String algorithm){
         byte[] digest = null;
         byte[] buffer = message.getBytes();
