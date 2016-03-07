@@ -59,7 +59,6 @@ public class NavigationDrawerActivity extends AppCompatActivity
             super.onBackPressed();
         }
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -89,12 +88,10 @@ public class NavigationDrawerActivity extends AppCompatActivity
             // Handle the camera action
             tvTitolNavDrawer.setText("Arbre");
             ivNavDrawer.setImageResource(R.drawable.arbre);
-
         } else if (id == R.id.nav_banc) {
 
             tvTitolNavDrawer.setText("Banc");
             ivNavDrawer.setImageResource(R.drawable.banc);
-
         } else if (id == R.id.nav_brossa) {
             tvTitolNavDrawer.setText("Brossa");
             ivNavDrawer.setImageResource(R.drawable.brossa);
